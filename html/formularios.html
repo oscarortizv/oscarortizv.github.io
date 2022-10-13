@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/enlaces2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+  &nbsp;</header>
+<nav>
+  <ul id="menu2">
+    <li><a href="formatostexto.html">Formatos Texto</a></li>
+	<li><a href="listas.html">Listas</a></li>
+	<li><a href="enlaces.html">Enlaces</a></li>
+	<li><a href="tablasenhtml.html">Tablas</a></li>
+	<li><a href="imagenes.html">imagenes</a></li>
+	<li><a href="audio.html">audio</a></li>
+	<li><a href="videos.html">video</a></li>
+	<li><a href="formularios.html">formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario con imput de tipo texto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla cumque obcaecati, molestiae animi, velit sapiente nemo alias explicabo, quidem soluta, suscipit quod corporis tempora distinctio labore! Nostrum, adipisci, ab. Eos.</p>
+    <form id="form1" name="form1" method="post">
+      <label for="nombre">nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="textfield2">Apellido:</label>
+      <input type="text" name="textfield2" id="textfield2">
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      &nbsp;
+    </form>
+    &nbsp;</section>
+  <section>
+    <h2>Formulario (despegable, radiobutton y checkbox)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iure neque repellat aperiam iste fugit impedit consectetur suscipit nulla alias culpa quas reprehenderit, facilis reiciendis recusandae optio non distinctio dignissimos!</p>
+<form id="form2" name="form2" method="post">
+      <label for="select">Select:</label>
+<select name="select" id="pais">
+        <option value="mx">mexico</option>
+        <option value="es">españa</option>
+        <option value="us">estados unidos</option>
+        <option value="ar">argentina</option>
+        <option value="co">colombia</option>
+      </select>
+	<br><br>
+<label>Genero</label>
+<p>
+        <label>
+          <input type="radio" name="genero" value="fem" id="genero_0">
+        femenino</label>
+        <br>
+        <label>
+          <input type="radio" name="genero" value="masc" id="genero_1">
+          masculino</label>
+        <br>
+        <label>
+          <input type="radio" name="genero" value="otro" id="genero_2">
+          otro</label>
+        <br>
+      </p>
+      <input name="boton1" type="submit" class="st stylebutton" id="submit2" formaction="procesamientos.html" formmethod="GET" value="Enviar">
+      <table width="200">
+        <label>musica preferida</label>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="musica" value="pop" id="musica_0">
+            pop</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="musica" value="rock" id="musica_1">
+            rock</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="musica" value="jazz" id="musica_2">
+            jazz</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="musica" value="clasica" id="musica_3">
+            clasica</label></td>
+        </tr>
+      </table>
+      &nbsp;
+</form>
+</section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Este es el contenido de la etiqueta P de diseño</p>
+    <form id="form3" name="form3" method="post">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+		<br><br>
+      <label for="textarea">comentario:</label>
+		<br><br>
+      <textarea name="textarea" cols="30" rows="20" maxlength="100" autofocus="autofocus" class="comentario" id="textarea">escribe aqui tu comentario...</textarea>
+		<br><br>
+      <input name="submit3" type="submit" class="stylebutton" id="submit3" formaction="procesamientos.html" formmethod="GET" value="Enviar">
+      &nbsp;
+    </form>
+    &nbsp;</section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Este es el contenido de la etiqueta P de diseño</p>
+    <form id="form5" name="form5" method="post">
+      <label for="nombre">nombre:</label>
+      <input type="text" name="nombre5" id="nombre5">
+      <label for="textfield2">Apellido:</label>
+      <input type="text" name="textfield5" id="textfield5">
+      <input name="submit5" type="submit" id="submit5" formaction="procesamientos.html" formmethod="GET" value="Enviar">
+      &nbsp;
+    </form>
+	  <br><br>
+	  <form id="form4" name="form4" method="post">
+      <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">Colocar aquí el contenido para form
+    </form>
+	  <br><br>
+	  <form>
+		  <label for="vol">volume (between 0 and 50):</label>
+		  <input type="range" id="volume" name="vol" min="0" max="50">
+	  </form>
+	  <br><br>
+    <form>
+	  <label for="favcolor">select your favorite color</label>
+	    <input name="favcolor" type="color" id="color">
+    </form>
+	  <br><br>
+	  <form>
+		  <label for="appt">select a time:</label>
+		  <input type="time" id="appt" name="appt">
+	  </form>
+&nbsp;</section>
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por Ortiz Villasaldo Oscar</h6>
+  &nbsp;</footer>
+</body>
+</html>
